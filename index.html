@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <!-- fontawesome link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+  <!-- for image gallery -->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" />
+  <link rel="stylesheet" href="gallery-grid.css" />
+  <title>Home | Grace Point</title>
+</head>
+
+<body>
+  <main>
+    <!-- mobile header start -->
+    <!-- <div class="topHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <div class="ctaArea topCta">
+                <div class="innerCta">
+                  <a href="#" class="btn ctaBtn">Book an appoinment</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="headerIconArea mobileTopIcon">
+                <div class="innerHeaderIcon mobileIcon">
+                  <div class="searchIcon">
+                    <i class="fa fa-search searchOne"></i>
+                  </div>
+                  <div class="messageIcon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    <!-- mobile header close -->
+
+    <!-- header start -->
+    <header class="sticky top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-6">
+            <div class="logoArea">
+              <div class="innerLogo">
+                <a href="index.html">
+                  <img src="assets/images/logo.png" class="logo" alt="Grace Point" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 col-lg-7 col-6">
+            <div class="menuArea">
+              <div class="innerMenu">
+                <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="what-we-do.html">What we do</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-1 col-lg-1">
+            <div class="headerIconArea">
+              <div class="innerHeaderIcon">
+                <div class="searchIcon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <div class="messageIcon">
+                  <a href="mailto:example@gmail.com"><i class="fa fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-lg-2">
+            <div class="ctaArea">
+              <div class="innerCta">
+                <a href="#" class="btn ctaBtn">Book an appoinment</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="searchField">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <div class="innerSearchField">
+                <form class="form-inline my-2 my-lg-0 searchForm">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header close -->
+
+    <!-- banner start -->
+    <section class="banner">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/banner1.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block container">
+              <h5 class="bannerTitleFirst">Building Stronger Teams</h5>
+              <p>Our Recruitment Solutions Drive Excellence</p>
+              <div class="bannerBtnArea">
+                <a href="about.html" class="btn first-child">ABOUT US <i class="fa fa-arrow-right"></i></a>
+                <a href="what-we-do.html" class="btn last-child">WHAT WE DO <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/banner2.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block container">
+              <h5 class="bannerTitleFirst">Building Stronger Teams</h5>
+              <p>Our Recruitment Solutions Drive Excellence</p>
+              <div class="bannerBtnArea">
+                <a href="about.html" class="btn first-child">ABOUT US <i class="fa fa-arrow-right"></i></a>
+                <a href="what-we-do.html" class="btn last-child">WHAT WE DO <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/banner3.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block container">
+              <h5 class="bannerTitleFirst">Building Stronger Teams</h5>
+              <p>Our Recruitment Solutions Drive Excellence</p>
+              <div class="bannerBtnArea">
+                <a href="about.html" class="btn first-child">ABOUT US <i class="fa fa-arrow-right"></i></a>
+                <a href="what-we-do.html" class="btn last-child">WHAT WE DO <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- banner close ******************************************************************************-->
+
+    <!-- who we are start*************************************************************************** -->
+    <section class="whoWeAre">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-lg-7 col-sm-12">
+            <div class="wwaLeft">
+              <h5>WHO WE ARE</h5>
+              <h1>
+                At Grace Point Technology, we offer a platform where
+                exceptional talent meets limitless opportunities.
+              </h1>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <p>
+                    We are the catalysts of success, redefining the
+                    recruitment and staffing landscape with our passion and
+                    expertise.
+                  </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <p>
+                    At Grace Point Technology, we prioritize
+                    integrity,transparency, and personalized service.
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn wwaBtn">READ MORE <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 col-md-5">
+            <div class="wwaRight">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets/images/who we are 1.png" alt="" />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets/images/who we are 3.png" alt="" />
+                  <img src="assets/images/who we are 2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row counterArea">
+          <div class="col-md-9 col-lg-9 col-sm-12">
+            <div class="row">
+              <div
+                class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated"
+                data-wow-duration="300ms" style="
+                    visibility: visible;
+                    animation-duration: 300ms;
+                    animation-name: fadeInUp;
+                  ">
+                <div class="innerCounter d-flex">
+                  <img class="counterImg" src="assets/images/meetup icon.png" alt="" />
+                  <div class="counterText">
+                    <span id="anim-number-pizza" class="counter-number"></span>
+                    <div class="counterNum counterTitle">
+                      <span class="timer counter alt-font appear" data-to="980" data-speed="7000">2000</span><span
+                        class="plus">+</span>
+                    </div>
+                    <p class="counterDes">PROFESSIONAL PLACED GLOBALLY</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated"
+                data-wow-duration="300ms" style="
+                    visibility: visible;
+                    animation-duration: 300ms;
+                    animation-name: fadeInUp;
+                  ">
+                <div class="innerCounter d-flex">
+                  <img class="counterImg" src="assets/images/threeuser icon.png" alt="" />
+                  <div class="counterText">
+                    <span id="anim-number-pizza" class="counter-number"></span>
+                    <div class="counterNum counterTitle">
+                      <span class="timer counter alt-font appear" data-to="980" data-speed="7000">500</span><span
+                        class="plus">+</span>
+                    </div>
+                    <p class="counterDes">Specialist Recruiters</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated"
+                data-wow-duration="300ms" style="
+                    visibility: visible;
+                    animation-duration: 300ms;
+                    animation-name: fadeInUp;
+                  ">
+                <div class="innerCounter d-flex">
+                  <img class="counterImg" src="assets/images/smile icon.png" alt="" />
+                  <div class="counterText">
+                    <span id="anim-number-pizza" class="counter-number"></span>
+                    <div class="counterNum counterTitle">
+                      <span class="timer counter alt-font appear" data-to="980" data-speed="7000">100</span><span
+                        class="plus">+</span>
+                    </div>
+                    <p class="counterDes">Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated"
+                data-wow-duration="300ms" style="
+                    visibility: visible;
+                    animation-duration: 300ms;
+                    animation-name: fadeInUp;
+                  ">
+                <div class="innerCounter d-flex">
+                  <img class="counterImg" src="assets/images/stat icon.png" alt="" />
+                  <div class="counterText">
+                    <span id="anim-number-pizza" class="counter-number"></span>
+                    <div class="counterNum counterTitle">
+                      <span class="timer counter alt-font appear" data-to="980" data-speed="7000">15</span><span
+                        class="plus">+</span>
+                    </div>
+                    <p class="counterDes">Years of experience</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- who we are close*************************************************************************** -->
+
+    <!-- What we do start*************************************************************************** -->
+    <section class="whatWeDo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectionTitle">
+              <h5 class="subtitle">WHAT WE DO</h5>
+              <h1 class="secTitle">
+                Nurture, Develop, and Retain Exceptional Talent Across
+                Industries!
+              </h1>
+              <p class="secDes">
+                We define ourselves in the growth of our clients across the
+                globe propelling their success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="solutionSection row">
+        <div class="innerSolutionLeft col-md-4 col-sm-12">
+          <p>
+            <span><a class="btn" data-bs-toggle="collapse" href="#collaps1" role="button" aria-expanded="false"
+                aria-controls="collaps1"><img src="assets/images/tv lock icon.png" class="tab-icon" alt="" /><span
+                  class="tabText">IT Professional Staffing Solutions</span></a></span>
+            <span><a class="btn" data-bs-toggle="collapse" href="#collaps2" role="button" aria-expanded="false"
+                aria-controls="collaps2"><img src="assets/images/tv lock icon.png" class="tab-icon" alt="" /><span
+                  class="tabText">Tech Staffing Solutions</span></a></span>
+            <span><a class="btn" data-bs-toggle="collapse" href="#collaps3" role="button" aria-expanded="false"
+                aria-controls="collaps1"><img src="assets/images/meet up tab icon.png" class="tab-icon" alt="" /><span
+                  class="tabText">Scientific and Clinical Staffing</span></a></span>
+            <span><a class="btn" data-bs-toggle="collapse" href="#collaps4" role="button" aria-expanded="false"
+                aria-controls="collaps1"><img src="assets/images/brain icon tab.png" class="tab-icon" alt="" /><span
+                  class="tabText">Unlocking Skilled Professionals</span></a></span>
+            <span><a class="btn" data-bs-toggle="collapse" href="#collaps5" role="button" aria-expanded="false"
+                aria-controls="collaps1"><img src="assets/images/bag icon tab.png" class="tab-icon" alt="" /><span
+                  class="tabText">Direct Placement</span></a></span>
+            <span><a class="btn" data-bs-toggle="collapse" href="#collaps6" role="button" aria-expanded="false"
+                aria-controls="collaps1"><img src="assets/images/search icon tab.png" class="tab-icon" alt="" /><span
+                  class="tabText">Embrace Diversity and Leverage Global Remote Talent</span></a></span>
+          </p>
+        </div>
+        <div class="innerSolutionRight col-md-8 col-sm-12">
+          <div class="row item-panel">
+            <div class="col card1">
+              <div class="collapsed" id="collaps1">
+                <div class="card card-body">
+                  <img class="cardImg" src="assets/images/tv icon.png" alt="" />
+                  <h3 class="cardTitle">
+                    IT Professional Staffing Solutions
+                  </h3>
+                  <p class="CardDes">
+                    We define ourselves in the growth of our clients across
+                    the globe propelling their success.
+                  </p>
+                  <a href="#" class="btn wwaBtn cardBtn">READ MORE <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col card2">
+              <div class="collapse multi-collapse" id="collaps2">
+                <div class="card card-body">
+                  <img class="cardImg" src="assets/images/tv icon.png" alt="" />
+                  <h3 class="cardTitle">Tech Staffing Solutions</h3>
+                  <p class="CardDes">
+                    We define ourselves in the growth of our clients across
+                    the globe propelling their success.
+                  </p>
+                  <a href="#" class="btn wwaBtn cardBtn">READ MORE <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col card3">
+              <div class="collapse multi-collapse" id="collaps3">
+                <div class="card card-body">
+                  <img class="cardImg" src="assets/images/tv icon.png" alt="" />
+                  <h3 class="cardTitle">Scientific and Clinical Staffing</h3>
+                  <p class="CardDes">
+                    We define ourselves in the growth of our clients across
+                    the globe propelling their success.
+                  </p>
+                  <a href="#" class="btn wwaBtn cardBtn">READ MORE <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col card4">
+              <div class="collapse multi-collapse" id="collaps4">
+                <div class="card card-body">
+                  <img class="cardImg" src="assets/images/tv icon.png" alt="" />
+                  <h3 class="cardTitle">Unlocking Skilled Professionals</h3>
+                  <p class="CardDes">
+                    We define ourselves in the growth of our clients across
+                    the globe propelling their success.
+                  </p>
+                  <a href="#" class="btn wwaBtn cardBtn">READ MORE <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col card5">
+              <div class="collapse multi-collapse" id="collaps5">
+                <div class="card card-body">
+                  <img class="cardImg" src="assets/images/tv icon.png" alt="" />
+                  <h3 class="cardTitle">Direct Placement</h3>
+                  <p class="CardDes">
+                    We define ourselves in the growth of our clients across
+                    the globe propelling their success.
+                  </p>
+                  <a href="#" class="btn wwaBtn cardBtn">READ MORE <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col card6">
+              <div class="collapse multi-collapse" id="collaps6">
+                <div class="card card-body">
+                  <img class="cardImg" src="assets/images/tv icon.png" alt="" />
+                  <h3 class="cardTitle">
+                    Embrace Diversity and Leverage Global Remote Talent
+                  </h3>
+                  <p class="CardDes">
+                    We define ourselves in the growth of our clients across
+                    the globe propelling their success.
+                  </p>
+                  <a href="#" class="btn wwaBtn cardBtn">READ MORE <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What we do close*************************************************************************** -->
+
+    <!-- Support System start*********************************************************************** -->
+    <section class="supportSystem">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-sm-12">
+            <div class="supportTitle">
+              <h5 class="subtitle">SUPPORT SYSTEM</h5>
+              <h1 class="secTitle">Our Area of Expertise</h1>
+            </div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-sm-12">
+            <div class="supportBrand">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 col-sm-6">
+                  <div class="innerBrand">
+                    <img src="assets/images/uipath.png" alt="" class="brandLogo blogo1" />
+                    <p class="brandDes">UiPath Support</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-6">
+                  <div class="innerBrand">
+                    <img src="assets/images/aws.png" alt="" class="brandLogo" />
+                    <p class="brandDes">AWS Support Service</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-6">
+                  <div class="innerBrand">
+                    <img src="assets/images/google cloud.png" alt="" class="brandLogo" />
+                    <p class="brandDes">Cloud Computing Service</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-6">
+                  <div class="innerBrand">
+                    <img src="assets/images/ai.png" alt="" class="brandLogo" />
+                    <p class="brandDes">AI Support Service</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Support System close -->
+
+    <!-- appoinment form area start -->
+    <section class="appoinmentFormArea">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="appoinmentLeft">
+              <div class="appoinmentLeftTitle">
+                <h5 class="subtitle">BOOK AN APPOINMENT</h5>
+                <h1 class="secTitle">We are always ready to help you and meet your requirements</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="appoinmentRight">
+              <div class="innerForm">
+                <div class="formTitle">
+                  <h5 class="subtitle">BOOK AN APPOINMENT</h5>
+                  <h1 class="secTitle">Fill in your details and we will get back to you. </h1>
+                </div>
+                <form action="#" method="post">
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-12">
+                        <input type="text" class="form-control" name="your_name" placeholder="Your Name *" required>
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <input type="text" class="form-control" name="your_phone" placeholder="Your Phone *" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group col-md-12 col-sm-12">
+                    <select name="select_choice" id="selectChoice" class="selectChoice">
+                      <option disabled">Select your choice</option>
+                      <option value="itemOne">Item One</option>
+                      <option value="itemTwo">Item Two</option>
+                      <option value="itemThree">Item Three</option>
+                      <option value="itemFour">Item Four</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-12 col-sm-12">
+                    <textarea name="your_message" id="yourMessage" cols="30" rows="5"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn wwaBtn formBtn">SUBMIT <i class="fa fa-arrow-right"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- appoinment form area close -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footerTop">
+          <div class="row">
+            <div class="col-md-3 col-sm-12">
+              <div class="footerLoroArea">
+                <div class="innerFooterLogo">
+                  <img src="assets/images/footer logo.png" class="footerLogo" alt="">
+                  <div class="socialIconArea">
+                    <div class="inneSocialIcon">
+                      <i class="fa-brands fa-twitter"><a href="#"></a></i>
+                      <i class="fa-brands fa-facebook-f"><a href="#"></a></i>
+                      <i class="fa-brands fa-linkedin-in"><a href="#"></a></i>
+                      <i class="fa-brands fa-instagram"><a href="#"></a></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-sm-12">
+              <div class="footerBox quickLink">
+                <h5>QUICK LINKS</h5>
+                <ul class="menuItem">
+                  <li class="menu-item"><a href="#">Home</a></li>
+                  <li class="menu-item"><a href="#">About Us</a></li>
+                  <li class="menu-item"><a href="#">What We Do</a></li>
+                  <li class="menu-item"><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="footerBox whatWeDo">
+                <h5>WHAT WE DO</h5>
+                <ul class="menuItem">
+                  <li class="menu-item"><a href="#">IT Professional Staffing Solutions</a></li>
+                  <li class="menu-item"><a href="#">Tech Staffing Solutions</a></li>
+                  <li class="menu-item"><a href="#">Scientific and Clinical Staffing</a></li>
+                  <li class="menu-item"><a href="#">Unlocking Skilled Professionals</a></li>
+                  <li class="menu-item"><a href="#">Direct Placement</a></li>
+                  <li class="menu-item"><a href="#">Embrace Diversity and Leverage Global Remote Talent</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+              <div class="footerBox contact-us">
+                <h5>CONTACT US</h5>
+                <ul class="menuItem">
+                  <li><img src="assets/images/map icon.png" alt=""><span><a href="#">105 Airport Executive Park<br>
+                        Suite 101, Nanuet ,<br>
+                        NY 10954
+                      </a></span></li>
+                  <li><img src="assets/images/phone icon.png" alt=""><span><a href="tel:(917) 708-1136">
+                        (917) 708-1136
+                      </a></span></li>
+                  <li><img src="assets/images/envelop icon.png" alt=""><span><a href="mailto:info@gracepointtech.com">
+                        info@gracepointtech.com
+                      </a></span></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="footerBottom">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="footerBottomLeft">
+                <ul class="footerBottomMenu">
+                  <li class="menu-item"><a href="">Privacy Policy</a></li>
+                  <li><a class="divider">|</a></li>
+                  <li class="menu-item"><a href="">Terms of use</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="footerBottomRight">
+                <div class="copyRight">
+                  <p>2023 Gracepoint.com, All Rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer close -->
+  </main>
+
+  <!-- ***********************************************************************************************body close -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.querySelector(".fa-search").onclick = function () {
+      document.querySelector(".innerSearchField").classList.toggle('show');
+    };
+
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
